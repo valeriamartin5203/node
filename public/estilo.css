@@ -1,9 +1,78 @@
-    body { font-family: Arial; }
-        #mensajes {
-            border: 4px solid #f11616;
-            height: 300px;
-            overflow-y: auto;
-            padding: 10px;
-            margin-bottom: 10px;
-            color: #5cf1e5;
-        }
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fondo.jfif);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Título */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #030303;
+    
+}
+
+
+/* Mensajes */
+#mensajes p {
+    margin: 5px 0;
+    padding: 5px;
+    background: #b4b3fc;
+    border-radius: 5px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botón */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #f789f7 !important;
+    color: rgb(0, 0, 0) !important;
+    border: none !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #e952e9 !important;
+}
+
+.chat-container {
+    background: rgba(233, 214, 235, 0.76);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#mensajes {
+    height: 250px;
+    overflow-y: auto;
+    border: 2px solid #ea00ff;
+    padding: 10px;
+}
+
+/* Ajustes extra para pantallas pequeñas */
+@media (max-width: 576px) {
+    #mensajes {
+        height: 200px;
+    }
+}
+
+    
+    
