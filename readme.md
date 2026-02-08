@@ -39,11 +39,3 @@ instalar dependencias
 ```bash
 npm install
 
-
-Para iniciar servidor ponga npm start en la terminal de bash y abrir el link que se aloje
-
----
-
-## Autor 
-Valeria Martin Llamas
-
