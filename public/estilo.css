@@ -1,0 +1,9 @@
+    body { font-family: Arial; }
+        #mensajes {
+            border: 4px solid #f11616;
+            height: 300px;
+            overflow-y: auto;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #5cf1e5;
+        }
