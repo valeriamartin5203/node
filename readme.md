@@ -18,6 +18,7 @@ Las caracteristicas de este proyecto es:
 comunicacion en tiempo real
 soporte a muchos usuarios
 Intefaz sencilla
+Adaptacion a telefonos con bootstrap
 
 ## Estructura del proyecto
 La estructura de este proyecto es la siguiente
@@ -27,10 +28,13 @@ node_modules
 public 
     estilos.css
     index.html
+    fondo.jfif
 package-lock.json
 package.json
 readme.md
 server.js
+
+
 
 ## Descarga del proyecto
 Puedes clonar o descargar los archivos
